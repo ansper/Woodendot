@@ -1,0 +1,203 @@
+*, *::before, *::after {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+ul, ol, li {
+    list-style: none;
+}
+img {
+    vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+/* ------------------Заготовка------------------ */
+html, body {
+    height: 100%;
+    line-height: 1;
+    font-size: 18px;
+    color: #000;
+    font-weight: 500;
+    font-family: Cardo;
+    background-color: #fafafa;
+}
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+._container {
+    max-width: 1440px;
+    padding: 0 20px;
+    margin: 0px auto;
+    box-sizing: content-box;
+}
+._ibg {
+    position: relative;
+}
+._ibg img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+/* header */
+
+.header {
+    margin: 0 0 36px 0;
+}
+.header__container {
+    display: flex;
+    max-height: 69px;
+}
+.header__menu {
+    margin: 21px 0;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 135%;
+}
+.menu__list {
+    flex-wrap: wrap;
+    display: flex;
+}
+.menu__item a{
+    color: #000;
+}
+.menu__item:not(:last-child) {
+    margin: 0 20px 0 0;
+}
+.header__logo {
+    margin: 16px 0 17px 328px;
+}
+.header__logo:hover {
+    cursor: pointer;
+}
+
+/* page */
+
+.page {
+
+}
+.page__discovernow {
+
+}
+.page__services {
+
+}
+.page__workimg {
+
+}
+/* Discover page */
+
+.discovernow {
+    position: relative;
+}
+.discovernow__container {
+    padding: 257px 0 300px 0;
+    position: relative;
+    z-index: 2;
+    max-width: 1440px;
+    max-height: 698px;
+}
+.discover__body {
+    margin: 257px 0 300px;
+    text-align: center;
+}
+.discovernow__text {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 140%;
+    letter-spacing: 0.2;
+    text-align: center;
+    color: #fff;
+    margin: 0 0 31px 0;
+}
+.discovernow__but {
+    padding: 6px 38px 7px 41px;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    background: none;
+    color: #fff;
+    border: 1px solid #fff;
+}
+.discovernow__but:hover {
+    cursor: pointer;
+}
+.decorstyle {
+    position: absolute;
+    left: 0;
+    bottom: 3px;
+    padding: 15px 30px;
+    width: 324px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 133%;
+    background: #000;
+    color: #fff;
+}
+.discovernow__image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+/* services */
+
+.services {
+}
+.services__container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 109px 0 69px;
+    align-items: center;
+    height: 155px;
+}
+.services__item {
+    display: inherit;
+    align-items: center;
+    flex: 18%;
+}
+.services__item p {
+    display: inline-block;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 183%;
+    letter-spacing: 0.2px;
+    margin: 65px 0;
+}
+.services__item p:nth-child(1n) {
+    margin: 0 0 0 15px;
+}
+.services__text {
+    margin: 0 0 0 191px;
+}
+/* WORKIMG */
+
+.workimg {
+    width: 100%;
+}
+.workimg__container {
+    display: inline;
+    clear: left;
+}
+.workimg__block {
+}
+.workimg__block__img {
+    
+}
